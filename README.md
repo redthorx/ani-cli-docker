@@ -6,8 +6,7 @@
  
 ```sh
  git clone https://github.com/redthorx/ani-cli-docker
- cd ani-cli-docker
- docker build --tag ani-cli .
+ docker build --tag ani-cli ./ani-cli-docker
  (optional) sudo cp ani-cli /usr/local/bin/ani-cli && sudo chmod +x /usr/local/bin/ani-cli
 
 ```
